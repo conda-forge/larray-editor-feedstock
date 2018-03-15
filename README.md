@@ -14,9 +14,9 @@ Summary: Graphical User Interface for LArray.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/build-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/build-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/build-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/build-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/build-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/build-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/larray-editor-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/larray-editor-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/larray-editor-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/larray-editor-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/larray-editor-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/larray-editor-feedstock/branch/master)
 
 Current release info
 ====================
