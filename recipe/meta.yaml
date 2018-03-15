@@ -1,6 +1,6 @@
 {% set name = "larray-editor" %}
-{% set version = "0.26.1" %}
-{% set sha256 = "57aafcb53fdeafe32b61d2a52185926706c048df028fbf76ecb7a86f76f7fb49" %}
+{% set version = "0.28" %}
+{% set sha256 = "712220f244fb7b703f36ecb53c0cc093c9943ea0e4481864d1d12fe26f7ce601" %}
 
 package:
   name: {{ name|lower }}
