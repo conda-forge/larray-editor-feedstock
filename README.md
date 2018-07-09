@@ -14,14 +14,15 @@ Summary: Graphical User Interface for LArray.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/larray-editor-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/larray-editor-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/larray-editor-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/larray-editor-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/larray-editor-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/larray-editor-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/larray-editor-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/larray-editor-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/larray-editor/badges/version.svg)](https://anaconda.org/conda-forge/larray-editor)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/larray-editor/badges/downloads.svg)](https://anaconda.org/conda-forge/larray-editor)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-larray--editor-green.svg)](https://anaconda.org/conda-forge/larray-editor) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/larray-editor.svg)](https://anaconda.org/conda-forge/larray-editor) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/larray-editor.svg)](https://anaconda.org/conda-forge/larray-editor) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/larray-editor.svg)](https://anaconda.org/conda-forge/larray-editor) |
 
 Installing larray-editor
 ========================
