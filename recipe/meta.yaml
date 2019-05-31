@@ -1,15 +1,12 @@
-{% set name = "larray-editor" %}
 {% set version = "0.29" %}
-{% set sha256 = "5945651408848150ca436ba1abecddc0a0a573e34640a089ca29f27c90cfaffe" %}
 
 package:
-  name: {{ name|lower }}
+  name: larray-editor
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/larray-project/larray-editor/archive/{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: f0fbe767a3c186f42177c5753817dbf7bcd7eee7abe31f4b0765f8f8f3f82faa
 
 build:
   noarch: python
@@ -17,12 +14,10 @@ build:
 
 requirements:
   host:
-    - pip
     - python
-    - setuptools
+    - pip
     - larray
     - pytest-runner
-
   run:
     - python
     - larray
@@ -39,8 +34,8 @@ about:
   home: https://github.com/larray-project/larray-editor
   license: GPL-3.0
   license_family: GPL
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: "Graphical User Interface for LArray."
+  license_file: LICENSE
+  summary: "Graphical User Interface for LArray"
 
 extra:
   recipe-maintainers:
