@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -21,7 +21,7 @@ requirements:
   run:
     - python
     - larray
-    - matplotlib
+    - matplotlib-base
     - pyqt
     - qtpy
     - pytest-runner
