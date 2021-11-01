@@ -1,4 +1,4 @@
-{% set version = "0.32.2" %}
+{% set version = "0.33.1" %}
 
 package:
   name: larray-editor
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/larray-project/larray-editor/archive/{{ version }}.tar.gz
-  sha256: 1354893feff80b0bc62f4841e76fdead7b04b5616d2d411737ff0244ce5dc8a3
+  sha256: 56dc00825735664a82518a6dab7b1df17c5cf6c4792b023f4c700bfadb04c3e6
 
 build:
   noarch: python
@@ -36,7 +36,7 @@ about:
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
-  summary: "Graphical User Interface for LArray"
+  summary: Graphical User Interface for LArray
   dev_url: https://github.com/larray-project/larray-editor
 
 extra:
