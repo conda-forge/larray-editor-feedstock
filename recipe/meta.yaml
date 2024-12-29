@@ -10,17 +10,17 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - larray-editor = larray_editor.start:main
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
 
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     # requires larray >= 0.32 because of the LArray -> Array rename
     - larray >=0.32
     # it is indirectly pulled from larray, but let us be explicit about this
@@ -33,6 +33,8 @@ requirements:
     - qtconsole !=5.4.2
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - larray_editor
 
